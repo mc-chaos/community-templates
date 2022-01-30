@@ -7,16 +7,6 @@ spec:
     name: speedtest
 ---
 apiVersion: influxdata.com/v2alpha1
-kind: Bucket
-metadata:
-    name: serene-mendel-e76003
-spec:
-    associations:
-      - kind: Label
-        name: crumbling-lovelace-a76001
-    name: speedtest
----
-apiVersion: influxdata.com/v2alpha1
 kind: Dashboard
 metadata:
     name: wonderful-aryabhata-676001
